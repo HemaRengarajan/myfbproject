@@ -27,7 +27,8 @@ public class Signup
         driver.findElement(By.xpath("//*[@id=\"facebook\"]/body/div[3]/div[2]/div/div/div/div/div[3]/div[2]/div/div[2]/div[1]/div")).click();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
       
-        // driver.findElement(By.xpath(""))
+         driver.findElement(By.id("u_0_0_dl")).click();
+        
         
    }
 }
